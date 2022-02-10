@@ -1,4 +1,4 @@
-const http = require("http");
+const http = require("node/http");
 const mysql = require('mysql');
 
 
@@ -9,7 +9,7 @@ http.createServer(function (request, response) {
     response.writeHead(200, {'Content-Type': 'text/plain'});
 
     // Send the response body as "Hello World"
-    response.end('Hello World\n');
+    response.end('Hello World');
 }).listen(8081);
 
 // Console will print the message
