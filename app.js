@@ -1,8 +1,6 @@
 var express = require("express");
 var app = express();
 app.get('/hello',function(req,res){
-    var myJson = {};
-    myJson.msg = "Hello World!";
-    res.json(myJson);
+    res.status(200).json({msg:"Hello World"});
 });
 app.listen(8080);
