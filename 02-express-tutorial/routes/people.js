@@ -6,15 +6,15 @@ let {people} = require("../data");
 const {getPeople, deletePerson, createPersonPostman, updatePerson, createPerson} = require('../controllers/people')
 
 
-// router.get('/', getPeople)
+// routes.get('/', getPeople)
 //
-// router.post('/', createPerson)
+// routes.post('/', createPerson)
 //
-// router.post('/postman', getPersonPostman)
+// routes.post('/postman', getPersonPostman)
 //
-// router.put('/:id', updatePerson)
+// routes.put('/:id', updatePerson)
 //
-// router.delete('/:id', deletePerson)
+// routes.delete('/:id', deletePerson)
 
 router.route('/'.get(getPeople).post(createPerson))
 router.route('/postman'.post(createPersonPostman))

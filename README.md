@@ -1,2 +1,2 @@
-# node
-Learning Node.js and Express.js
+# Node.js and Express.js
+Learning and practicing
